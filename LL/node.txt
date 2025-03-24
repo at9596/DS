@@ -1,0 +1,20 @@
+LL is looks like a node which contains node(data) and next(pointer of next node). head pointer contains the address of the first node and 
+last node points to a null node.
+
+
+
+head -> |data! next| -> |d2!next|-> null
+
+let's understand it by programming code-
+
+
+java code:
+
+class Node{
+    int data;
+    Node next;
+    public Node(int data){
+        this.data= data;
+        this.next = null; // This is optional as inbuilt already intialized by null
+    }
+}
